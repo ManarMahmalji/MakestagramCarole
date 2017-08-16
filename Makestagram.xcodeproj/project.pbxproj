@@ -13,6 +13,7 @@
 		29542B3C1F43342800805736 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 29542B3A1F43342800805736 /* Main.storyboard */; };
 		29542B3E1F43342800805736 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 29542B3D1F43342800805736 /* Assets.xcassets */; };
 		29542B411F43342800805736 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 29542B3F1F43342800805736 /* LaunchScreen.storyboard */; };
+		29BCA4451F4468FF00F85FB8 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 29BCA4441F4468FF00F85FB8 /* GoogleService-Info.plist */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -23,6 +24,7 @@
 		29542B3D1F43342800805736 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		29542B401F43342800805736 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		29542B421F43342800805736 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		29BCA4441F4468FF00F85FB8 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		66A80C9223A04C0A87EDFC30 /* Pods-Makestagram.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Makestagram.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Makestagram/Pods-Makestagram.debug.xcconfig"; sourceTree = "<group>"; };
 		A48B229F579A71849FBD37A2 /* Pods-Makestagram.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Makestagram.release.xcconfig"; path = "Pods/Target Support Files/Pods-Makestagram/Pods-Makestagram.release.xcconfig"; sourceTree = "<group>"; };
 		BBBC6CAB07FF699701572718 /* Pods_Makestagram.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Makestagram.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -67,6 +69,7 @@
 				29542B3D1F43342800805736 /* Assets.xcassets */,
 				29542B3F1F43342800805736 /* LaunchScreen.storyboard */,
 				29542B421F43342800805736 /* Info.plist */,
+				29BCA4441F4468FF00F85FB8 /* GoogleService-Info.plist */,
 			);
 			path = Makestagram;
 			sourceTree = "<group>";
@@ -151,6 +154,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				29542B411F43342800805736 /* LaunchScreen.storyboard in Resources */,
+				29BCA4451F4468FF00F85FB8 /* GoogleService-Info.plist in Resources */,
 				29542B3E1F43342800805736 /* Assets.xcassets in Resources */,
 				29542B3C1F43342800805736 /* Main.storyboard in Resources */,
 			);
@@ -166,7 +170,7 @@
 			);
 			inputPaths = (
 				"${SRCROOT}/Pods/Target Support Files/Pods-Makestagram/Pods-Makestagram-resources.sh",
-				"$PODS_CONFIGURATION_BUILD_DIR/FirebaseUI/FirebaseAuthUI.bundle",
+				$PODS_CONFIGURATION_BUILD_DIR/FirebaseUI/FirebaseAuthUI.bundle,
 			);
 			name = "[CP] Copy Pods Resources";
 			outputPaths = (
@@ -391,6 +395,7 @@
 				29542B471F43342800805736 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
